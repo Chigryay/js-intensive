@@ -9,7 +9,6 @@ let interval;
 const numWord = (value, words) => {
     value = Math.abs(value) % 100;
     const lastNumber = value % 10;
-    console.log(lastNumber)
 
     if (value > 10 && value < 20) {
         return words[2];

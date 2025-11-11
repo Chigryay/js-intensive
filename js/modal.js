@@ -10,7 +10,6 @@ modalWindow.addEventListener('click', (event) => {
     if (!modalContent) {
         modalWindow.style.display = 'none';
     }
-    console.dir(modalContent);
 });
 
 function changedDisplayModal() {
